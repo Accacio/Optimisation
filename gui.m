@@ -22,7 +22,7 @@ function varargout = gui(varargin)
 
 % Edit the above text to modify the response to help gui
 
-% Last Modified by GUIDE v2.5 25-Nov-2015 22:34:38
+% Last Modified by GUIDE v2.5 28-Nov-2015 14:40:45
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -86,7 +86,8 @@ function func_Callback(hObject, eventdata, handles)
 %     return
 % end
 func = get(hObject,'String');   %gets what's written on the func text box
-handles.func = string(func);    %sending the value of func to the handles struct
+func(func==',') = '.';
+handles.func = func;    %sending the value of func to the handles struct
 set(hObject,'ForegroundColor',[0 0 0],'String',func); %making the correct number appear onscreen (with . instead of ,)
 guidata(hObject,handles) %sending the struct back to the program   
 
@@ -114,34 +115,31 @@ function button_calc_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 h = get(handles.panel_method,'SelectedObject'); %store in h the radio button that is selected
 method = get(h,'String');    %store in method the name of the selected radio button
-xi = handles.num.xi;
+xi = handles.num.xi; %getting the necessary parameters from the handles struct
 xf = handles.num.xf;
 func = handles.func;
 tol = handles.num.tol;
 it = handles.num.it;
 switch method
     case get(handles.button_fibo,'String')  %in case the name of the button is the same as the fibonacci button
-        warndlg('Função selecionada: Fibonacci','Aviso');
+        warndlg('Método selecionado: Fibonacci','Aviso'); %just for testing
         % TODO call fibonacci function
-        set(handles.result_x,'String','x = ponto de mínimo')
+        set(handles.result_x,'String','x = ponto de mínimo') 
         set(handles.result_fx,'String','f(x) = valor do mínimo')
     case get(handles.button_aurea,'String') %in case the name of the button is the same as the aurea button
-        % TODO call aurea function
-        [min, xi_lim, xf_lim, it_max] = aurea(func,xi,xf,tol,it);
-        min = num2str(min);
+        [handles.num.min, handles.num.xi_lim, handles.num.xf_lim, handles.num.it_max] = aurea(func,xi,xf,tol,it); %storing the result of aurea in handles
+        min = num2str(handles.num.min); %preparing the result to be displayed in the gui
         resultx = ['x = ' min];
         set(handles.result_x,'String',resultx)
         %set(handles.result_x,'String','x = ponto de mínimo')
         set(handles.result_fx,'String','f(x) = valor do mínimo')
-        if it_max == it
-            warning = 'Máximo de iterações. Intervalo final igual a [';
-            warning = [warning num2str(xi_lim)];
-            warning = [warning num2str(xf_lim)];
-            warning = [warning '].'];
+        if handles.num.it_max == it %if the minimum wasn't found, inform the final interval reached
+            warning_it = ['[' num2str(handles.num.xi_lim) ' ' num2str(handles.num.xf_lim) '].'];
+            warning = {'Máximo de iterações alcançado.' 'Intervalo final igual a:' warning_it};
             warndlg(warning,'Aviso');
         end
     case get(handles.button_poly,'String')  %in case the name of the button is the same as the polinomial button
-        warndlg('Função selecionada: Interpolação Polinomial','Aviso');
+        warndlg('Método selecionado: Interpolação Polinomial','Aviso');
         % TODO call polynomial interpolation function
         set(handles.result_x,'String','x = ponto de mínimo')
         set(handles.result_fx,'String','f(x) = valor do mínimo')
@@ -293,3 +291,44 @@ function it_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+% --- Executes on button press in button_result.
+function button_result_Callback(hObject, eventdata, handles)
+% hObject    handle to button_result (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+xi = handles.num.xi;
+xf = handles.num.xf;
+func = handles.func;
+tol = handles.num.tol;
+it = handles.num.it;
+min = handles.num.min;
+xi_lim = handles.num.xi_lim;
+xf_lim = handles.num.xf_lim;
+it_max = handles.num.it_max;
+selected_func = ['Função selecionada: ' func];
+selected_method = '';
+h = get(handles.panel_method,'SelectedObject'); %store in h the radio button that is selected
+method = get(h,'String');    %store in method the name of the selected radio button
+switch method
+    case get(handles.button_fibo,'String')  %in case the name of the button is the same as the fibonacci button
+        selected_method = 'Método selecionado: Fibonacci';
+    case get(handles.button_aurea,'String') %in case the name of the button is the same as the aurea button
+        selected_method = 'Método selecionado: Seção Áurea';
+    case get(handles.button_poly,'String')  %in case the name of the button is the same as the polinomial button
+        selected_method = 'Método selecionado: Interpolação Polinomial';
+end
+selected_it = ['Número máximo de iterações = ' num2str(it)];
+selected_tol = ['Tolerância selecionada = ' num2str(tol)];
+selected_interval = ['Intervalo inicial = [' num2str(xi) ' ' num2str(xf) ']'];
+result_interval = [];
+        if it_max == it
+            result_interval = ['[' num2str(handles.num.xi_lim) ' ' num2str(handles.num.xf_lim) '].'];
+            result_interval = ['Intervalo final igual a: ' result_interval];
+        end
+            result_min = 'Minímo encontrado em x = ';
+            result_min = [result_min num2str(min)];
+            result_it = ['Foram feitas ' num2str(it_max) ' iterações'];
+message = {selected_func selected_method selected_it selected_tol selected_interval result_min result_it result_interval};
+msgbox(message,'Valores');
