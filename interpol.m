@@ -3,7 +3,7 @@ function [minimum,F_min,elapsed_time,L_lim,R_lim,Iter_Num] = interpol(exp, a, b,
     I=0;
     tic;
     equation=sym(exp);
-    syms x;
+    x=symvar(equation);
     V=[a a/2+b/2 b];
     F=[ double(subs(equation,x,V(1))) double(subs(equation,x,V(2))) double(subs(equation,x,V(3)))];
 
