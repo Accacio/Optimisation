@@ -127,12 +127,13 @@ switch method
         set(handles.result_x,'String','x = ponto de mínimo') 
         set(handles.result_fx,'String','f(x) = valor do mínimo')
     case get(handles.button_aurea,'String') %in case the name of the button is the same as the aurea button
-        [handles.num.min, handles.num.xi_lim, handles.num.xf_lim, handles.num.it_max] = aurea(func,xi,xf,tol,it); %storing the result of aurea in handles
+        [handles.num.min, handles.num.fmin, handles.num.time, handles.num.xi_lim, handles.num.xf_lim, handles.num.it_max] = aurea(func,xi,xf,tol,it); %storing the result of aurea in handles
         min = num2str(handles.num.min); %preparing the result to be displayed in the gui
         resultx = ['x = ' min];
         set(handles.result_x,'String',resultx)
-        %set(handles.result_x,'String','x = ponto de mínimo')
-        set(handles.result_fx,'String','f(x) = valor do mínimo')
+        fmin = num2str(handles.num.fmin);
+        resultfx = ['f(x) =' fmin];
+        set(handles.result_fx,'String',resultfx)
         if handles.num.it_max == it %if the minimum wasn't found, inform the final interval reached
             warning_it = ['[' num2str(handles.num.xi_lim) ' ' num2str(handles.num.xf_lim) '].'];
             warning = {'Máximo de iterações alcançado.' 'Intervalo final igual a:' warning_it};
@@ -322,13 +323,15 @@ end
 selected_it = ['Número máximo de iterações = ' num2str(it)];
 selected_tol = ['Tolerância selecionada = ' num2str(tol)];
 selected_interval = ['Intervalo inicial = [' num2str(xi) ' ' num2str(xf) ']'];
+result_min = 'Minímo encontrado em x = ';
+result_min = [result_min num2str(min)];
+result_it = ['Foram feitas ' num2str(it_max) ' iterações'];
 result_interval = [];
         if it_max == it
             result_interval = ['[' num2str(handles.num.xi_lim) ' ' num2str(handles.num.xf_lim) '].'];
             result_interval = ['Intervalo final igual a: ' result_interval];
-        end
-            result_min = 'Minímo encontrado em x = ';
+            result_min = 'Último ponto alcançado em x = ';
             result_min = [result_min num2str(min)];
-            result_it = ['Foram feitas ' num2str(it_max) ' iterações'];
+        end
 message = {selected_func selected_method selected_it selected_tol selected_interval result_min result_it result_interval};
 msgbox(message,'Valores');
