@@ -54,7 +54,7 @@ function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = aurea(exp, a, b, t
     plot_exp = subs(new_exp, x, t);
     plot(t, plot_exp, '-b', min, f_min, 'rx')
     
-    assignin
+   % assignin
     
     elapsed_time = toc;             %acaba de contar o tempo
     
