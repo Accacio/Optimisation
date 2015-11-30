@@ -1,17 +1,18 @@
-function [minimo, numI] = Fibonacci(expr, inicio_intervalo, fim_intervalo, numero_reducoes, tol)
+function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = Fibonacci(expr, inicio_intervalo, fim_intervalo, tol, numero_reducoes)
     %dados
+    tic
     a = inicio_intervalo;
     b = fim_intervalo;
     n = numero_reducoes;
     k = n + 1;
-    numI = 0;
+    Iter_Num = 0;
    
     %operacoes
     p = (1-sqrt(5))/(1+sqrt(5));
     alfa = (2/(1+sqrt(5)))*((1-p^k)/(1-p^(k+1)));    
     
     %loop
-    while numI < n
+    while Iter_Num < n
         x1 = a;
         x4 = b;
         x = symvar(expr);
@@ -27,13 +28,16 @@ function [minimo, numI] = Fibonacci(expr, inicio_intervalo, fim_intervalo, numer
             b = x3;
             Lfin = b-a;
             if b-a < tol
-                minimo = [fx2 x2];
+                min = x2;
+                f_min = fx2;
+
                 break;
             end;
             alfa = (Lini - Lfin)/Lfin;
-            numI = numI + 1;
-            if numI >= n
-                minimo = [fx2 x2];
+            Iter_Num = Iter_Num + 1;
+            if Iter_Num >= n
+                min = x2; 
+                f_min = fx2;
                 break;
             end;
         else
@@ -41,17 +45,24 @@ function [minimo, numI] = Fibonacci(expr, inicio_intervalo, fim_intervalo, numer
             b = x4;
             Lfin = b-a;
             if b-a < tol
-                minimo = [fx3 x3];
+                min = x3; 
+                f_min = fx3;
+
                 break;
             end;
             alfa = (Lini-Lfin)/Lfin;
-            numI = numI+1;
-            if numI >= n
-                minimo = [fx3 x3];
+            Iter_Num = Iter_Num+1;
+            if Iter_Num >= n
+                min = x3;
+                f_min = fx3;
+
                 break;
             end
         end
     end
+      L_lim = a;
+      R_lim = b;
+      elapsed_time = toc;
 end
             
             
