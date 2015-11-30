@@ -122,10 +122,22 @@ tol = handles.num.tol;
 it = handles.num.it;
 switch method
     case get(handles.button_fibo,'String')  %in case the name of the button is the same as the fibonacci button
-        warndlg('Método selecionado: Fibonacci','Aviso'); %just for testing
-        % TODO call fibonacci function
-        set(handles.result_x,'String','x = ponto de mínimo') 
-        set(handles.result_fx,'String','f(x) = valor do mínimo')
+        [handles.num.min, handles.num.fmin, handles.num.time, handles.num.xi_lim, handles.num.xf_lim, handles.num.it_max] = Fibonacci(func,xi,xf,tol,it); %storing the result of interpol in handles
+        min = num2str(handles.num.min); %preparing the result to be displayed in the gui
+        resultx = ['x = ' min];
+        set(handles.result_x,'String',resultx)
+        fmin = num2str(handles.num.fmin);
+        resultfx = ['f(x) = ' fmin];
+        set(handles.result_fx,'String',resultfx)
+        if handles.num.it_max == it %if the minimum wasn't found, inform the final interval reached
+            warning_it = ['[' num2str(handles.num.xi_lim) ' ' num2str(handles.num.xf_lim) '].'];
+            warning = {'Máximo de iterações alcançado.' 'Intervalo final igual a:' warning_it};
+            warndlg(warning,'Aviso');
+        end
+        %         warndlg('Método selecionado: Fibonacci','Aviso'); %just for testing
+%         % TODO call fibonacci function
+%         set(handles.result_x,'String','x = ponto de mínimo') 
+%         set(handles.result_fx,'String','f(x) = valor do mínimo')
     case get(handles.button_aurea,'String') %in case the name of the button is the same as the aurea button
         [handles.num.min, handles.num.fmin, handles.num.time, handles.num.xi_lim, handles.num.xf_lim, handles.num.it_max] = aurea(func,xi,xf,tol,it); %storing the result of aurea in handles
         min = num2str(handles.num.min); %preparing the result to be displayed in the gui
@@ -140,10 +152,6 @@ switch method
             warndlg(warning,'Aviso');
         end
     case get(handles.button_poly,'String')  %in case the name of the button is the same as the polinomial button
-%         warndlg('Método selecionado: Interpolação Polinomial','Aviso');
-%         % TODO call polynomial interpolation function
-%         set(handles.result_x,'String','x = ponto de mínimo')
-%         set(handles.result_fx,'String','f(x) = valor do mínimo')
         [handles.num.min, handles.num.fmin, handles.num.time, handles.num.xi_lim, handles.num.xf_lim, handles.num.it_max] = interpol(func,xi,xf,tol,it); %storing the result of interpol in handles
         min = num2str(handles.num.min); %preparing the result to be displayed in the gui
         resultx = ['x = ' min];
@@ -321,6 +329,7 @@ min = handles.num.min;
 xi_lim = handles.num.xi_lim;
 xf_lim = handles.num.xf_lim;
 it_max = handles.num.it_max;
+time = handles.num.time;
 selected_func = ['Função selecionada: ' func];
 selected_method = '';
 h = get(handles.panel_method,'SelectedObject'); %store in h the radio button that is selected
@@ -344,10 +353,12 @@ if it_max == 1
 end
 result_interval = [];
         if it_max == it
-            result_interval = ['[' num2str(handles.num.xi_lim) ' ' num2str(handles.num.xf_lim) '].'];
+            result_interval = ['[' num2str(xi_lim) ' ' num2str(xf_lim) '].'];
             result_interval = ['Intervalo final igual a: ' result_interval];
             result_min = 'Último ponto alcançado em x = ';
             result_min = [result_min num2str(min)];
         end
-message = {selected_func selected_method selected_it selected_tol selected_interval result_min result_it result_interval};
+result_time = ['Tempo de processamento = ' num2str(time) 's'];
+message = {selected_func selected_method selected_it selected_tol selected_interval ...
+    result_min result_it result_time result_interval};
 msgbox(message,'Valores');
