@@ -30,7 +30,6 @@ function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = Fibonacci(expr, in
             if b-a < tol
                 min = x2;
                 f_min = fx2;
-
                 break;
             end;
             alfa = (Lini - Lfin)/Lfin;
@@ -47,7 +46,6 @@ function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = Fibonacci(expr, in
             if b-a < tol
                 min = x3; 
                 f_min = fx3;
-
                 break;
             end;
             alfa = (Lini-Lfin)/Lfin;
@@ -55,7 +53,6 @@ function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = Fibonacci(expr, in
             if Iter_Num >= n
                 min = x3;
                 f_min = fx3;
-
                 break;
             end
         end
@@ -63,6 +60,9 @@ function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = Fibonacci(expr, in
       L_lim = a;
       R_lim = b;
       elapsed_time = toc;
+      t = -100:0.1:100;
+      plot_exp = subs(expr, x, t);
+      plot(t, plot_exp, '-b', min, f_min, 'rx')
 end
             
             
