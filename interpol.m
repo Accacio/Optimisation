@@ -38,6 +38,7 @@ function [minimum,F_min,elapsed_time,L_lim,R_lim,Iter_Num] = interpol(exp, a, b,
     t = -5+minimum:0.1:5+minimum;
     plot_exp = subs(exp, x, t);
     plot(t, plot_exp, '-b', minimum, F_min, 'rx')
+    xlim([a b])
     disp(['Iterações: ', num2str(Iter_Num), '/', num2str(n)])
     disp(['Tempo de simulação: ', num2str(elapsed_time)])
     disp(['Coordenadas do mínimo: ', '(', num2str(minimum), ',', num2str(F_min), ')'])

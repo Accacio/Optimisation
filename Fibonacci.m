@@ -63,6 +63,11 @@ function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = Fibonacci(expr, in
       t = -100:0.1:100;
       plot_exp = subs(expr, x, t);
       plot(t, plot_exp, '-b', min, f_min, 'rx')
+      xlim([inicio_intervalo fim_intervalo]);
+    disp(['Iterações: ', num2str(Iter_Num), '/', num2str(n)])
+    disp(['Tempo de simulação: ', num2str(elapsed_time)])
+    disp(['Coordenadas do mínimo: ', '(', num2str(min), ',', num2str(f_min), ')'])
+      
 end
             
             
