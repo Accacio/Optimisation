@@ -51,12 +51,14 @@ function [min, f_min, elapsed_time, L_lim, R_lim, Iter_Num] = aurea(exp, a, b, t
     min = (x1+x4)/2;
     f_min = double(subs(new_exp, x, min));
     t = -100:0.1:100;
+    
+     
+    elapsed_time = toc;             %acaba de contar o tempo
+    
     plot_exp = subs(new_exp, x, t);
     plot(t, plot_exp, '-b', min, f_min, 'rx')
     
    % assignin
-    
-    elapsed_time = toc;             %acaba de contar o tempo
     
     disp(['Iterações: ', num2str(Iter_Num), '/', num2str(Iter_Req)])
     disp(['Tempo de simulação: ', num2str(elapsed_time)])
