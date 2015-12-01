@@ -4,6 +4,8 @@ function [minimum,F_min,elapsed_time,L_lim,R_lim,Iter_Num] = interpol(exp, a, b,
     tic;
     equation=sym(exp);
     x=symvar(equation);
+    xi = a;
+    xf = b;
     V=[a a/2+b/2 b];
     F=[ double(subs(equation,x,V(1))) double(subs(equation,x,V(2))) double(subs(equation,x,V(3)))];
 
@@ -38,7 +40,7 @@ function [minimum,F_min,elapsed_time,L_lim,R_lim,Iter_Num] = interpol(exp, a, b,
     t = -5+minimum:0.1:5+minimum;
     plot_exp = subs(exp, x, t);
     plot(t, plot_exp, '-b', minimum, F_min, 'rx')
-    xlim([a b])
+    xlim([xi xf]);
     disp(['Iterações: ', num2str(Iter_Num), '/', num2str(n)])
     disp(['Tempo de simulação: ', num2str(elapsed_time)])
     disp(['Coordenadas do mínimo: ', '(', num2str(minimum), ',', num2str(F_min), ')'])
