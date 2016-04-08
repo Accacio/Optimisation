@@ -1,0 +1,26 @@
+\begin{frame}{Método de Quase Newton}
+	Todos os métodos de Newton baseiam-se em facilitar o cálculo da Hessiana. O método de Quase Newton diferencia-se por apoiar-se na chamada "Condição de Quase Newton":
+	\\
+	\begin{equation}
+		H^{k+1} \gamma^{k} = \delta^{k} = \left\{
+		\begin{tabular}{c}
+		\gamma^{k} = g^{k+1} - g^{k}\\
+		\delta^{k} = x^{k+1} - x^{k} 
+		\end{tabular}
+	\end{equation}
+\end{frame}
+
+\begin{frame}	
+Duas possibilidades para se gerar matrizes H satisfazendo essa restrição são o método de Davidon-Fletcher-Powell (DFP):
+\begin{equation}
+	H^{k+1} = H - \frac{H \gamma \gamma^T H}{\gamma^T H \gamma} + \frac{\delta \delta^T}{\delta^T \gamma}
+\end{equation}	
+
+ou o método de Broyden-Fletcher-Goldfarb-Shanno (BFGS)
+
+\begin{equation}
+H^{k+1} = H - \frac{\delta \gamma^T H + H \gamma \delta^T}{\delta^T \gamma} + \Bigg( 1 + \frac{\gamma^T H \gamma}{\delta^T \gamma}\Bigg) \frac{\delta \delta^T}{\delta^T \gamma}
+\end{equation}	
+
+
+\end{frame}

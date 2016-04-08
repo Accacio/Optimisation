@@ -1,0 +1,13 @@
+========== TIKZEDT UNCAUGHT EXCEPTION ======
+2/3/2016 5:44:38 PM
+Referência de objeto não definida para uma instância de um objeto.
+
+Stack Trace:
+   em TikzEdt.MainWindow.AddStatusLine(String text, Boolean lError)
+   em TikzEdt.MainWindow.TexCompiler_OnCompileEvent(Object sender, CompileEventArgs e)
+   em FastSmartWeakEvent(WeakReference , Object , EventArgs )
+   em SmartWeakEvent.FastSmartWeakEvent`1.Raise(Object sender, EventArgs e)
+   em TikzEdt.TexCompiler.<>c__DisplayClass10.<texprocess_Exited>b__f()
+   em System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   em System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+===== END: TIKZEDT UNCAUGHT EXCEPTION ======

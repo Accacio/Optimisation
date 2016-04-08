@@ -1,0 +1,28 @@
+\begin{frame}{Gradiente Conjugado}
+	\vspace{-22mm}
+	\begin{itemize}
+		\item Suaviza as mudanças de direção abruptas do método do gradiente.
+		\vspace{5mm}
+		\item Adição do coeficiente de inércia $\beta$ conserva uma fração da direção anterior.
+	\end{itemize}
+	\vspace{5mm}
+	\begin{equation}
+	d^{k+1} = -g(x^{k+1}) + \beta_k d^k
+	\end{equation}
+
+\end{frame}
+
+\begin{frame}{Gradiente Conjugado - coeficientes}
+	O avanço $\alpha$ tem a seguinte fórmula:
+		\begin{align}
+			x^{k+1} &= x^k + \alpha_k d^k \\
+			\tilde{f}(\alpha) &= f(x^k + \alpha d^k)
+		\end{align}
+		A função $\tilde{f}(\alpha)$ é minimizada utilizando a razão áurea.\\
+		Já o coeficiente $\beta$ é uma relação entre o gradiente atual e o anterior.\\
+		Segundo \textit{Polak-Rebière}:
+		\begin{equation}
+			\beta_k = \frac{||g^{k+1}|| - [g^+1]^T g^k}{||g^k||}
+		\end{equation}
+
+\end{frame}

@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{M\IeC {\'\i }nimos Quadrados}{3}{0}{1}
+\beamer@sectionintoc {2}{Algoritmo Gen\IeC {\'e}tico}{18}{0}{2}
+\beamer@sectionintoc {3}{Simplex}{26}{0}{3}
+\beamer@sectionintoc {4}{Conclus\IeC {\~a}o}{60}{0}{4}

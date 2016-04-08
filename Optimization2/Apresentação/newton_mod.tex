@@ -1,0 +1,34 @@
+\begin{frame}{Newton Modificado}
+	
+	Para melhorar o método de Newton, foram feitas algumas alterações, como:
+	
+	\begin{itemize}
+		\item Diminuição do avanço na direção $ d^k $, da forma:
+	\end{itemize}
+	
+	\begin{equation}
+	x^{k+1} = x^k + \alpha_k d^k
+	\end{equation}
+	
+	onde $ \alpha_k $ minimiza $ \tilde{f}(\alpha) = f(x^k + \alpha d^k) $
+	
+\end{frame}
+
+
+\begin{frame}{Newton Modificado}
+	
+	\begin{itemize}
+		\item Correção do sinal da Hessiana por um truque matricial:
+	\end{itemize}	
+	
+	\begin{equation}
+	F^k = G^k + \gamma I_n
+	\end{equation}
+	
+	Em que $ F^k $ tem autovalores positivos para poder gerar uma direção $ d^k $ de descida da forma
+	
+	\begin{equation}
+	d^k = -[F^k]^{-1}g^k = -[\nabla^2 f(x^k) + \gamma I_n]^{-1}\nabla f(x^k)
+	\end{equation}
+	
+\end{frame}

@@ -1,0 +1,64 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f1_gui.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f1_gui}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f1_resultados.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f1_resultados}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f2_gui.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f2_gui}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f2_resultados.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f2_resultados}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f3_gui.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f3_gui}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f3_resultados.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f3_resultados}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f4_gui.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f4_gui}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{../newton/f4_resultados.PNG}
+		\caption{escrevaaquiseucaption}
+		\label{fig:f4_resultados}
+	\end{center}
+\end{figure}
+

@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{lindenalgoritmos}
+R.~LINDEN.
+\newblock {\em Algoritmos Gen{\'e}ticos (2a edi{\c{c}}{\~a}o)}.
+\newblock BRASPORT.
+
+\bibitem{nelder1965simplex}
+John~A Nelder and Roger Mead.
+\newblock A simplex method for function minimization.
+\newblock {\em The computer journal}, 7(4):308--313, 1965.
+
+\bibitem{Ting2005}
+Chuan-Kang Ting.
+\newblock {\em Advances in Artificial Life: 8th European Conference, ECAL 2005,
+  Canterbury, UK, September 5-9, 2005. Proceedings}, chapter On the Mean
+  Convergence Time of Multi-parent Genetic Algorithms Without Selection, pages
+  403--412.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2005.
+
+\bibitem{trabalho2}
+Cayo Valsamis, Gabriel Pelielo, Rodrigo Moysés, and Rafael Accácio.
+\newblock Trabalho 2 - introdução à otimização.
+
+\bibitem{whitleyGAtutorial}
+Darrell Whitley.
+\newblock A genetic algorithm tutorial.
+\newblock {\em Statistics and Computing}, 4(2):65--85.
+
+\end{thebibliography}

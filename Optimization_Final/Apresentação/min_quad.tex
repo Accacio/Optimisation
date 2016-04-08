@@ -1,0 +1,29 @@
+\begin{frame}[t]{Mínimos Quadrados}
+	\begin{itemize}
+	\item Minimizar Quadrado dos Resíduos
+	\end{itemize}\pause
+	\begin{equation}
+min(\sum^n (\mathbf{f}(t_k,\omega_n,\zeta)-\mathbf{y}_k))
+\end{equation}\pause
+\begin{itemize}
+	\item $n$ é o número de amostras.\pause
+	\item $k$ é uma amostra.\pause
+	\item $\mathbf{f}(t_k,\omega_n,\zeta)$ é a expressão da função de resposta no tempo k.\pause
+	\item $t_k$ é o instante de tempo da k-ésima amostra.\pause
+	\item $\mathbf{y}_k$ é o valor medido na amostra $k$.\pause
+	\item $\omega_n$ e $\zeta$ são os parâmetros do sistema.
+	\note<8>{ZETA}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{"Dividir e Conquistar"}
+\only<1-2>{Iremos dividir em duas partes}
+\begin{enumerate}
+\item<1-2> Calcular a expressão $\sum_{i=1}^k (\mathbf{f}(t_k,\omega_n,\zeta)-\mathbf{y}_k)$\pause
+\item<2> Minimizar a expressão através de algum método.
+\end{enumerate}
+\only<3>{\vspace{-1cm}Quais métodos?}
+\only<4-6>{Métodos Antigos?\\}
+\only<5-6>{ \vspace{1cm}\hspace{3cm}Métodos Novos?\\}
+\only<6>{ \vspace{1cm}\hspace{6cm}Veremos...}
+\end{frame}

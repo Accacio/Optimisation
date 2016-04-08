@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{Descida M\IeC {\'a}xima}{3}{0}{1}
+\beamer@sectionintoc {2}{Gradiente Conjugado}{5}{0}{2}
+\beamer@sectionintoc {3}{Newton}{7}{0}{3}
+\beamer@sectionintoc {4}{Newton Modificado}{9}{0}{4}
+\beamer@sectionintoc {5}{Quase Newton}{12}{0}{5}
+\beamer@sectionintoc {6}{Programa}{14}{0}{6}
+\beamer@sectionintoc {7}{Conclus\IeC {\~a}o}{16}{0}{7}

@@ -1,0 +1,74 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{epstopdf}
+\usetheme[pageofpages=/,% String used between the current page and the
+                         % total page count.
+          bullet=circle,% Use circles instead of squares for bullets.
+          titleline=true,% Show a line below the frame title.
+          alternativetitlepage=true,% Use the fancy title page.
+          titlepagelogo=logo_afonso,% Logo for the first page.
+          watermark=Minerva_UFRJ_Black_transparency,% Watermark used in every page.
+          watermarkheight=90px,% Height of the watermark.
+          watermarkheightmult=4,% The watermark image is 4 times bigger
+                                % than watermarkheight.
+          ]{Torino}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{pgf}
+\usepackage{eulervm}
+
+\author{\textbf{Alunos: \newline
+		Cayo Valsamis \newline
+		Gabriel Pelielo \newline
+		Rafael Accácio \newline
+		Rodrigo Moysés}}
+\title{\textbf{Introdução à Otimização \vspace{0.25cm} \newline 
+		       Trabalho 1}}
+\institute{Universidade Federal do Rio de Janeiro}
+\date{01 de Dezembro, 2015}
+
+
+\begin{document}
+
+\setbeamertemplate{section in toc}[square]
+
+	\AtBeginSection[]{
+	\begin{frame}
+		\frametitle{Sumário}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+	
+	
+\begin{frame}[t,plain]
+	\titlepage
+\end{frame}
+	
+\begin{frame}{Sumário}
+	\tableofcontents
+\end{frame}
+
+%\include{introducao}
+%\tableofcontents
+\section{Fibonacci}
+\include{fibonacci}
+
+
+\section{Razão Áurea}
+\include{aurea}
+
+\section{Interpolação Polinomial}
+\include{polinomial}
+
+\section{Programa}
+\include{gui}
+
+\section{Conclusão}
+\include{conclusao}
+
+\end{document}
+

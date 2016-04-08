@@ -1,0 +1,34 @@
+\begin{tikzpicture}
+\newcommand\q{*.75}
+\newcommand\pri{1}
+\newcommand\xa{(\pri,0)}
+
+\newcommand\xb{(\pri,\pri\q)}
+
+\newcommand\xc{(\pri+\pri\q\q,\pri\q)}
+
+\newcommand\xd{(\pri+\pri\q\q,\pri\q+\pri\q\q\q)}
+
+\newcommand\xe{(\pri+\pri\q\q+\pri\q\q\q\q,\pri\q+\pri\q\q\q)}
+
+\newcommand\xf{(\pri+\pri\q\q+\pri\q\q\q\q,\pri\q+\pri\q\q\q+\pri\q\q\q\q\q)}
+
+\newcommand\xg{(\pri+\pri\q\q+\pri\q\q\q\q+\pri\q\q\q\q\q\q,\pri\q+\pri\q\q\q+\pri\q\q\q\q\q)}
+
+\newcommand\xh{(\pri+\pri\q\q+\pri\q\q\q\q+\pri\q\q\q\q\q\q,\pri\q+\pri\q\q\q+\pri\q\q\q\q\q+\pri\q\q\q\q\q\q\q)}
+
+
+%\newcommand\xe{(2,1)}
+%\newcommand\xf{(2,1)}
+
+\node [left] at (0,0){$x^0$};
+\draw[fill] (0,0) circle [radius=.4mm];
+\draw [line width=.2mm,rotate=-45](0,0) -- \xa;
+\draw[line width=.2mm,rotate=-45] \xa -- \xb;
+\draw [line width=.2mm,rotate=-45]\xb -- \xc;
+\draw [line width=.2mm,rotate=-45]\xc -- \xd;
+\draw [line width=.2mm,rotate=-45]\xd -- \xe;
+\draw [line width=.2mm,rotate=-45]\xe -- \xf;
+\draw [line width=.2mm,rotate=-45]\xf -- \xg;
+\draw [line width=.2mm,rotate=-45]\xg -- \xh;
+\end{tikzpicture}

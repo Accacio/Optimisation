@@ -1,0 +1,1285 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.30)  13 FEB 2016 12:51
+entering extended mode
+**relatorio.tex
+(relatorio.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+(F:\Software\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(F:\Software\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(F:\Software\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(F:\Software\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+
+(F:\Software\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(F:\Software\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(F:\Software\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+(F:\Software\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(F:\Software\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(F:\Software\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(F:\Software\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(F:\Software\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (preamble.tex
+(F:\Software\MiKTeX\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(F:\Software\MiKTeX\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(F:\Software\MiKTeX\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(F:\Software\MiKTeX\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(F:\Software\MiKTeX\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(F:\Software\MiKTeX\tex\latex\tools\array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(F:\Software\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(F:\Software\MiKTeX\tex\latex\base\inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
+
+(F:\Software\MiKTeX\tex\latex\base\utf8.def
+File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(F:\Software\MiKTeX\tex\latex\base\t1enc.dfu
+File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(F:\Software\MiKTeX\tex\latex\base\ot1enc.dfu
+File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(F:\Software\MiKTeX\tex\latex\base\omsenc.dfu
+File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(F:\Software\MiKTeX\tex\generic\babel\babel.sty
+Package: babel 2015/08/03 3.9m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(F:\Software\MiKTeX\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(F:\Software\MiKTeX\tex\latex\babel-portuges\portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(F:\Software\MiKTeX\tex\generic\babel\babel.def
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count101
+\U@D=\dimen116
+)
+Package babel Info: Making " an active character on input line 145.
+))
+(F:\Software\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+
+(F:\Software\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@tempdima=\dimen120
+\caption@indent=\dimen121
+\caption@parindent=\dimen122
+\caption@hangindent=\dimen123
+)
+Package caption Info: We need package `newfloat' on input line 292.
+
+(F:\Software\MiKTeX\tex\latex\caption\newfloat.sty
+Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
+)
+\c@ContinuedFloat=\count102
+Package caption Info: float package is loaded.
+)
+(F:\Software\MiKTeX\tex\latex\caption\subcaption.sty
+Package: subcaption 2015/09/15 v1.1-100 Sub-captions (AR)
+\c@subfigure=\count103
+\c@subtable=\count104
+)
+(F:\Software\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(F:\Software\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(F:\Software\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(F:\Software\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen124
+\Gm@wd@mp=\dimen125
+\Gm@odd@mp=\dimen126
+\Gm@even@mp=\dimen127
+\Gm@layoutwidth=\dimen128
+\Gm@layoutheight=\dimen129
+\Gm@layouthoffset=\dimen130
+\Gm@layoutvoffset=\dimen131
+\Gm@dimlist=\toks25
+
+(F:\Software\MiKTeX\tex\latex\geometry\geometry.cfg))
+(F:\Software\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(F:\Software\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+(F:\Software\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(F:\Software\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(F:\Software\MiKTeX\tex\latex\steinmetz\steinmetz.sty
+Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
+
+(F:\Software\MiKTeX\tex\latex\pict2e\pict2e.sty
+Package: pict2e 2016/01/09 v0.2z Improved picture commands (HjG,RN,JT)
+
+(F:\Software\MiKTeX\tex\latex\00miktex\pict2e.cfg
+File: pict2e.cfg 2011/04/05 v0.1t pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(F:\Software\MiKTeX\tex\latex\pict2e\p2e-pdftex.def
+File: p2e-pdftex.def 2011/04/05 v0.1t Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks26
+\@arclen=\dimen132
+\@arcrad=\dimen133
+\@tempdimd=\dimen134
+)
+\stm@phasebox=\box30
+\stm@phasedp=\skip57
+\stm@phaseht=\skip58
+\stm@phasetot=\skip59
+\stm@phasewd=\skip60
+)
+(F:\Software\MiKTeX\tex\latex\dstroke\dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(F:\Software\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen135
+)
+(F:\Software\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen136
+\lightrulewidth=\dimen137
+\cmidrulewidth=\dimen138
+\belowrulesep=\dimen139
+\belowbottomsep=\dimen140
+\aboverulesep=\dimen141
+\abovetopsep=\dimen142
+\cmidrulesep=\dimen143
+\cmidrulekern=\dimen144
+\defaultaddspace=\dimen145
+\@cmidla=\count108
+\@cmidlb=\count109
+\@aboverulesep=\dimen146
+\@belowrulesep=\dimen147
+\@thisruleclass=\count110
+\@lastruleclass=\count111
+\@thisrulewidth=\dimen148
+)
+(F:\Software\MiKTeX\tex\latex\multirow\bigstrut.sty)
+(F:\Software\MiKTeX\tex\latex\bigfoot\perpage.sty
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count112
+)
+(F:\Software\MiKTeX\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(F:\Software\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+(F:\Software\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(F:\Software\MiKTeX\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(F:\Software\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen149
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
+
+(F:\Software\MiKTeX\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count115
+
+(F:\Software\MiKTeX\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count116
+
+(F:\Software\MiKTeX\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen150
+\Fld@menulength=\count117
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count118
+\c@Item=\count119
+\c@Hfootnote=\count120
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(F:\Software\MiKTeX\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
+
+(F:\Software\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip61
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 61.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 61.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
+) (relatorio.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+(F:\Software\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count123
+\scratchdimen=\dimen153
+\scratchbox=\box31
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen154
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks28
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.3375pt, 433.62001pt, 90.3375pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 14.
+(F:\Software\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(F:\Software\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count129
+)
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
+ (relatorio.out)
+(relatorio.out)
+\@outlinefile=\write3
+ (titlepage.tex <logo.png, id=31, 93.951pt x 111.7776pt>
+File: logo.png Graphic file (type png)
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 6.
+(pdftex.def)             Requested size: 65.04034pt x 77.38416pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+ (F:\Software\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+
+(F:\Software\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+ [1
+
+{C:/Users/CayoValsamis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./lo
+go.png>]) (relatorio.toc)
+\tf@toc=\write4
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 20.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \newpage
+              [1]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 22.
+ (introducao.tex)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+ (descida_max.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+
+ []
+
+
+LaTeX Warning: Citation `Notastioafel' on page 2 undefined on input line 17.
+
+<../tikz/stegrades.pdf, id=55, 96.4664pt x 34.5009pt>
+File: ../tikz/stegrades.pdf Graphic file (type pdf)
+
+<use ../tikz/stegrades.pdf>
+Package pdftex.def Info: ../tikz/stegrades.pdf used on input line 22.
+(pdftex.def)             Requested size: 227.62204pt x 81.41876pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 27.
+ [2]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+ [3 <../tikz/stegrades.pdf>]
+<../stegrades/f1_gui.PNG, id=85, 490.83376pt x 567.62062pt>
+File: ../stegrades/f1_gui.PNG Graphic file (type png)
+
+<use ../stegrades/f1_gui.PNG>
+Package pdftex.def Info: ../stegrades/f1_gui.PNG used on input line 52.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+<../stegrades/f2_gui.PNG, id=86, 490.83376pt x 567.62062pt>
+File: ../stegrades/f2_gui.PNG Graphic file (type png)
+
+<use ../stegrades/f2_gui.PNG>
+Package pdftex.def Info: ../stegrades/f2_gui.PNG used on input line 62.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 67.
+ [4 <../stegrades/f1_gui.PNG>]
+<../stegrades/f3_gui.PNG, id=95, 490.83376pt x 567.62062pt>
+File: ../stegrades/f3_gui.PNG Graphic file (type png)
+
+<use ../stegrades/f3_gui.PNG>
+Package pdftex.def Info: ../stegrades/f3_gui.PNG used on input line 72.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 77.
+ [5 <../stegrades/f2_gui.PNG>]
+<../stegrades/f4_gui.PNG, id=102, 490.83376pt x 567.62062pt>
+File: ../stegrades/f4_gui.PNG Graphic file (type png)
+
+<use ../stegrades/f4_gui.PNG>
+Package pdftex.def Info: ../stegrades/f4_gui.PNG used on input line 82.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 87.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 87.
+ [6 <../stegrades/f3_gui.PNG>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 93.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 93.
+ [7 <../stegrades/f4_gui.PNG>])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+ (grad_conj.tex)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+ (newton.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+ [8]
+<../newton/f1_gui.png, id=127, 490.83376pt x 567.62062pt>
+File: ../newton/f1_gui.png Graphic file (type png)
+
+<use ../newton/f1_gui.png>
+Package pdftex.def Info: ../newton/f1_gui.png used on input line 27.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+<../newton/f2_gui.png, id=128, 490.83376pt x 567.62062pt>
+File: ../newton/f2_gui.png Graphic file (type png)
+
+<use ../newton/f2_gui.png>
+Package pdftex.def Info: ../newton/f2_gui.png used on input line 35.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../newton/f3_gui.png, id=129, 490.83376pt x 567.62062pt>
+File: ../newton/f3_gui.png Graphic file (type png)
+
+<use ../newton/f3_gui.png>
+Package pdftex.def Info: ../newton/f3_gui.png used on input line 43.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../newton/f4_gui.png, id=130, 490.83376pt x 567.62062pt>
+File: ../newton/f4_gui.png Graphic file (type png)
+
+<use ../newton/f4_gui.png>
+Package pdftex.def Info: ../newton/f4_gui.png used on input line 52.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 38.
+ (newton_mod.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 18.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 18.
+ [9 <../newton/f1_gui.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 33.
+ [10 <../newton/f2_gui.png>]
+<../newton_mod/f1_gui.png, id=148, 490.83376pt x 567.62062pt>
+File: ../newton_mod/f1_gui.png Graphic file (type png)
+
+<use ../newton_mod/f1_gui.png>
+Package pdftex.def Info: ../newton_mod/f1_gui.png used on input line 38.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../newton_mod/f2_gui.png, id=149, 490.83376pt x 567.62062pt>
+File: ../newton_mod/f2_gui.png Graphic file (type png)
+
+<use ../newton_mod/f2_gui.png>
+Package pdftex.def Info: ../newton_mod/f2_gui.png used on input line 46.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../newton_mod/f3_gui.png, id=150, 490.83376pt x 567.62062pt>
+File: ../newton_mod/f3_gui.png Graphic file (type png)
+
+<use ../newton_mod/f3_gui.png>
+Package pdftex.def Info: ../newton_mod/f3_gui.png used on input line 54.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../newton_mod/f4_gui.png, id=151, 490.83376pt x 567.62062pt>
+File: ../newton_mod/f4_gui.png Graphic file (type png)
+
+<use ../newton_mod/f4_gui.png>
+Package pdftex.def Info: ../newton_mod/f4_gui.png used on input line 62.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 42.
+ (quase_newton.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 	\gamma
+           ^{k} = g^{k+1} - g^{k}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 	\delta
+            ^{k} = x^{k+1} - x^{k}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 	\delta
+            ^{k} = x^{k+1} - x^{k}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 	\end{tabular}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.12 	\end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.12 	\end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 12.
+[11 <../newton/f3_gui.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 23.
+ [12 <../newton/f4_gui.png>]
+<../quase_newton/f1_gui.PNG, id=169, 490.83376pt x 567.62062pt>
+File: ../quase_newton/f1_gui.PNG Graphic file (type png)
+
+<use ../quase_newton/f1_gui.PNG>
+Package pdftex.def Info: ../quase_newton/f1_gui.PNG used on input line 29.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+ [13 <../newton_mod/f1_gui.png>]
+Overfull \vbox (219.29655pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 34.
+
+[14 <../newton_mod/f2_gui.png> <../quase_newton/f1_gui.PNG>]
+<../quase_newton/f2_gui.PNG, id=184, 490.83376pt x 567.62062pt>
+File: ../quase_newton/f2_gui.PNG Graphic file (type png)
+
+<use ../quase_newton/f2_gui.PNG>
+Package pdftex.def Info: ../quase_newton/f2_gui.PNG used on input line 39.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+Overfull \vbox (219.29655pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 44.
+
+[15 <../newton_mod/f3_gui.png> <../quase_newton/f2_gui.PNG>]
+<../quase_newton/f3_gui.PNG, id=193, 490.83376pt x 567.62062pt>
+File: ../quase_newton/f3_gui.PNG Graphic file (type png)
+
+<use ../quase_newton/f3_gui.PNG>
+Package pdftex.def Info: ../quase_newton/f3_gui.PNG used on input line 49.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+
+Overfull \vbox (219.29655pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 54.
+
+[16 <../newton_mod/f4_gui.png> <../quase_newton/f3_gui.PNG>]
+<../quase_newton/f4_gui.PNG, id=202, 490.83376pt x 567.62062pt>
+File: ../quase_newton/f4_gui.PNG Graphic file (type png)
+
+<use ../quase_newton/f4_gui.PNG>
+Package pdftex.def Info: ../quase_newton/f4_gui.PNG used on input line 59.
+(pdftex.def)             Requested size: 341.43306pt x 394.86328pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+ [17 <../quase_newton/f4_gui.PNG>])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 46.
+
+(conclusao.tex
+<../stegrades/f1_resultados.PNG, id=209, 201.75375pt x 163.3603pt>
+File: ../stegrades/f1_resultados.PNG Graphic file (type png)
+
+<use ../stegrades/f1_resultados.PNG>
+Package pdftex.def Info: ../stegrades/f1_resultados.PNG used on input line 12.
+(pdftex.def)             Requested size: 199.16928pt x 161.26854pt.
+
+<../gradiente_conjugado/f1_resultados.PNG, id=210, 182.18062pt x 163.3603pt>
+File: ../gradiente_conjugado/f1_resultados.PNG Graphic file (type png)
+
+<use ../gradiente_conjugado/f1_resultados.PNG>
+Package pdftex.def Info: ../gradiente_conjugado/f1_resultados.PNG used on input
+ line 18.
+(pdftex.def)             Requested size: 184.9429pt x 165.84259pt.
+
+<../newton/f1_resultados.PNG, id=211, 197.23688pt x 163.3603pt>
+File: ../newton/f1_resultados.PNG Graphic file (type png)
+
+<use ../newton/f1_resultados.PNG>
+Package pdftex.def Info: ../newton/f1_resultados.PNG used on input line 28.
+(pdftex.def)             Requested size: 199.16928pt x 164.96019pt.
+
+<../newton_mod/f1_resultados.PNG, id=212, 197.23688pt x 163.3603pt>
+File: ../newton_mod/f1_resultados.PNG Graphic file (type png)
+
+<use ../newton_mod/f1_resultados.PNG>
+Package pdftex.def Info: ../newton_mod/f1_resultados.PNG used on input line 34.
+
+(pdftex.def)             Requested size: 199.16928pt x 164.96019pt.
+
+<../quase_newton/f1_resultados.PNG, id=213, 197.23688pt x 163.3603pt>
+File: ../quase_newton/f1_resultados.PNG Graphic file (type png)
+
+<use ../quase_newton/f1_resultados.PNG>
+Package pdftex.def Info: ../quase_newton/f1_resultados.PNG used on input line 4
+2.
+(pdftex.def)             Requested size: 199.16928pt x 164.96019pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 47.
+ [18 <../stegrades/f1_resultados.PNG> <../gradiente_conjugado/f1_resultados.PNG
+> <../newton/f1_resultados.PNG> <../newton_mod/f1_resultados.PNG>]
+<../stegrades/f2_resultados.PNG, id=226, 201.75375pt x 163.3603pt>
+File: ../stegrades/f2_resultados.PNG Graphic file (type png)
+
+<use ../stegrades/f2_resultados.PNG>
+Package pdftex.def Info: ../stegrades/f2_resultados.PNG used on input line 58.
+(pdftex.def)             Requested size: 199.16928pt x 161.26854pt.
+
+<../gradiente_conjugado/f2_resultados.PNG, id=227, 186.6975pt x 163.3603pt>
+File: ../gradiente_conjugado/f2_resultados.PNG Graphic file (type png)
+
+<use ../gradiente_conjugado/f2_resultados.PNG>
+Package pdftex.def Info: ../gradiente_conjugado/f2_resultados.PNG used on input
+ line 64.
+(pdftex.def)             Requested size: 199.16928pt x 174.28029pt.
+
+<../newton/f2_resultados.PNG, id=228, 180.675pt x 163.3603pt>
+File: ../newton/f2_resultados.PNG Graphic file (type png)
+
+<use ../newton/f2_resultados.PNG>
+Package pdftex.def Info: ../newton/f2_resultados.PNG used on input line 74.
+(pdftex.def)             Requested size: 199.16928pt x 180.08324pt.
+
+<../newton_mod/f2_resultados.PNG, id=229, 186.6975pt x 163.3603pt>
+File: ../newton_mod/f2_resultados.PNG Graphic file (type png)
+
+<use ../newton_mod/f2_resultados.PNG>
+Package pdftex.def Info: ../newton_mod/f2_resultados.PNG used on input line 80.
+
+(pdftex.def)             Requested size: 199.16928pt x 174.28029pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 85.
+ [19 <../quase_newton/f1_resultados.PNG> <../stegrades/f2_resultados.PNG> <../g
+radiente_conjugado/f2_resultados.PNG>]
+<../quase_newton/f2_resultados.PNG, id=240, 197.23688pt x 163.3603pt>
+File: ../quase_newton/f2_resultados.PNG Graphic file (type png)
+
+<use ../quase_newton/f2_resultados.PNG>
+Package pdftex.def Info: ../quase_newton/f2_resultados.PNG used on input line 8
+8.
+(pdftex.def)             Requested size: 199.16928pt x 164.96019pt.
+
+<../stegrades/f3_resultados.PNG, id=241, 174.6525pt x 163.3603pt>
+File: ../stegrades/f3_resultados.PNG Graphic file (type png)
+
+<use ../stegrades/f3_resultados.PNG>
+Package pdftex.def Info: ../stegrades/f3_resultados.PNG used on input line 106.
+
+(pdftex.def)             Requested size: 184.9429pt x 172.99657pt.
+
+<../gradiente_conjugado/f3_resultados.PNG, id=242, 174.6525pt x 163.3603pt>
+File: ../gradiente_conjugado/f3_resultados.PNG Graphic file (type png)
+
+<use ../gradiente_conjugado/f3_resultados.PNG>
+Package pdftex.def Info: ../gradiente_conjugado/f3_resultados.PNG used on input
+ line 112.
+(pdftex.def)             Requested size: 184.9429pt x 172.99657pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 117.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 117.
+ [20 <../newton/f2_resultados.PNG> <../newton_mod/f2_resultados.PNG> <../quase_
+newton/f2_resultados.PNG>]
+<../newton/f3_resultados.PNG, id=252, 174.6525pt x 163.3603pt>
+File: ../newton/f3_resultados.PNG Graphic file (type png)
+
+<use ../newton/f3_resultados.PNG>
+Package pdftex.def Info: ../newton/f3_resultados.PNG used on input line 122.
+(pdftex.def)             Requested size: 184.9429pt x 172.99657pt.
+
+<../newton_mod/f3_resultados.PNG, id=253, 185.19188pt x 163.3603pt>
+File: ../newton_mod/f3_resultados.PNG Graphic file (type png)
+
+<use ../newton_mod/f3_resultados.PNG>
+Package pdftex.def Info: ../newton_mod/f3_resultados.PNG used on input line 128
+.
+(pdftex.def)             Requested size: 199.16928pt x 175.69363pt.
+
+<../quase_newton/f3_resultados.PNG, id=254, 174.6525pt x 163.3603pt>
+File: ../quase_newton/f3_resultados.PNG Graphic file (type png)
+
+<use ../quase_newton/f3_resultados.PNG>
+Package pdftex.def Info: ../quase_newton/f3_resultados.PNG used on input line 1
+36.
+(pdftex.def)             Requested size: 170.71652pt x 159.68817pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 143.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 143.
+ [21 <../stegrades/f3_resultados.PNG> <../gradiente_conjugado/f3_resultados.PNG
+> <../newton/f3_resultados.PNG> <../newton_mod/f3_resultados.PNG> <../quase_new
+ton/f3_resultados.PNG>]
+<../stegrades/f4_resultados.PNG, id=267, 201.75375pt x 163.3603pt>
+File: ../stegrades/f4_resultados.PNG Graphic file (type png)
+
+<use ../stegrades/f4_resultados.PNG>
+Package pdftex.def Info: ../stegrades/f4_resultados.PNG used on input line 154.
+
+(pdftex.def)             Requested size: 199.16928pt x 161.26854pt.
+
+<../gradiente_conjugado/f4_resultados.PNG, id=268, 224.33812pt x 163.3603pt>
+File: ../gradiente_conjugado/f4_resultados.PNG Graphic file (type png)
+
+<use ../gradiente_conjugado/f4_resultados.PNG>
+Package pdftex.def Info: ../gradiente_conjugado/f4_resultados.PNG used on input
+ line 160.
+(pdftex.def)             Requested size: 213.39566pt x 155.39828pt.
+
+<../newton/f4_resultados.PNG, id=269, 185.19188pt x 163.3603pt>
+File: ../newton/f4_resultados.PNG Graphic file (type png)
+
+<use ../newton/f4_resultados.PNG>
+Package pdftex.def Info: ../newton/f4_resultados.PNG used on input line 170.
+(pdftex.def)             Requested size: 199.16928pt x 175.69363pt.
+
+<../newton_mod/f4_resultados.PNG, id=270, 222.8325pt x 163.3603pt>
+File: ../newton_mod/f4_resultados.PNG Graphic file (type png)
+
+<use ../newton_mod/f4_resultados.PNG>
+Package pdftex.def Info: ../newton_mod/f4_resultados.PNG used on input line 176
+.
+(pdftex.def)             Requested size: 213.39566pt x 156.44272pt.
+
+<../quase_newton/f4_resultados.PNG, id=271, 159.59625pt x 163.3603pt>
+File: ../quase_newton/f4_resultados.PNG Graphic file (type png)
+
+<use ../quase_newton/f4_resultados.PNG>
+Package pdftex.def Info: ../quase_newton/f4_resultados.PNG used on input line 1
+84.
+(pdftex.def)             Requested size: 199.16928pt x 203.86833pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 189.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 189.
+ [22 <../stegrades/f4_resultados.PNG> <../gradiente_conjugado/f4_resultados.PNG
+> <../newton/f4_resultados.PNG> <../newton_mod/f4_resultados.PNG>])
+No file relatorio.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+[23 <../quase_newton/f4_resultados.PNG>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+ (relatorio.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+Package rerunfilecheck Info: File `relatorio.out' has not changed.
+(rerunfilecheck)             Checksum: D44341E783800978BF8FB2976DB804B7;430.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+ ) 
+Here is how much of TeX's memory you used:
+ 8952 strings out of 493673
+ 131942 string characters out of 3147609
+ 236289 words of memory out of 3000000
+ 12033 multiletter control sequences out of 15000+200000
+ 13999 words of font info for 53 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 38i,13n,43p,736b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Software/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Software/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmbx6.pfb><F:/Software/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx8.pfb><F:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><F:/S
+oftware/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><F:/Software/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><F:/Software/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><F:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><F:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/Software/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Software/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr6.pfb><F:/Software/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><F:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/Softw
+are/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Software/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><F:/Software/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb>
+Output written on relatorio.pdf (24 pages, 1734159 bytes).
+PDF statistics:
+ 358 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+
