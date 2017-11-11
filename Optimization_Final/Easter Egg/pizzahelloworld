@@ -1,8 +1,0 @@
-[rr cc] = meshgrid(1:80);
-pizza_base = sqrt((rr-40).^2+(cc-40).^2)<=20;
-pizza_base = +pizza_base;
-top = sqrt((rr-50).^2+(cc-50).^2)<=3;
-top = +top;
-top = 2*top;
-pizza = pizza_base + top;
-surf(pizza)

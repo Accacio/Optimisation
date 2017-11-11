@@ -1,7 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {brazil}
-\beamer@sectionintoc {1}{Fibonacci}{3}{0}{1}
-\beamer@sectionintoc {2}{Raz\IeC {\~a}o \IeC {\'A}urea}{6}{0}{2}
-\beamer@sectionintoc {3}{Interpola\IeC {\c c}\IeC {\~a}o Polinomial}{8}{0}{3}
-\beamer@sectionintoc {4}{Programa}{10}{0}{4}
-\beamer@sectionintoc {5}{Conclus\IeC {\~a}o}{13}{0}{5}

@@ -1,8 +1,0 @@
-\select@language {portuguese}
-\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}{section.1}
-\contentsline {section}{\numberline {2}M\IeC {\'e}todo da Descida M\IeC {\'a}xima}{2}{section.2}
-\contentsline {section}{\numberline {3}M\IeC {\'e}todo do Gradiente Conjugado}{8}{section.3}
-\contentsline {section}{\numberline {4}M\IeC {\'e}todo de Newton}{8}{section.4}
-\contentsline {section}{\numberline {5}M\IeC {\'e}todo de Newton Modificado}{9}{section.5}
-\contentsline {section}{\numberline {6}M\IeC {\'e}todo de Quase Newton}{11}{section.6}
-\contentsline {section}{\numberline {7}Conclus\IeC {\~a}o}{18}{section.7}

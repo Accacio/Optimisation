@@ -1,5 +1,7 @@
-# Optimization
+﻿# Optimisation
 Repositório dos Trabalhos de Otimização
+
+Documentação em Optimisation_doc
 
 ## Primeiro trabalho
 ### Fibonacci
