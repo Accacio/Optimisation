@@ -1,4 +1,4 @@
-%NEWTON MODIFICADO
+%NEWTON
 
 function [minimum,F_min,elapsed_time,Iter_num] =  newton_mod(exp,x0,tol,n)
 
@@ -17,7 +17,7 @@ h = waitbar(0, 'Aguarde');      %Inicializa a barra de progresso
 
 while Iter_num < n
     
-    %h = waitbar(Iter_num/n, h, ['Número de Iterações: ', num2str(Iter_num), '/', num2str(n)]);                %Atualiza barra de progesso
+    %h = waitbar(Iter_num/n, h, ['NÃºmero de IteraÃ§Ãµes: ', num2str(Iter_num), '/', num2str(n)]);                %Atualiza barra de progesso
 
     Iter_num = Iter_num + 1;
     
@@ -69,9 +69,9 @@ scatter3(minimum(1),minimum(2),F_min,100,'red','filled')
 hold off
 end
 
-disp(['Iterações: ', num2str(Iter_num), '/', num2str(n)])
-disp(['Tempo de simulação: ', num2str(elapsed_time)])
-disp(['Coordenadas do mínimo: ', '(', num2str(minimum(1)), ',' , num2str(minimum(2)), ',', num2str(F_min), ')'])
+disp(['IteraÃ§Ãµes: ', num2str(Iter_num), '/', num2str(n)])
+disp(['Tempo de simulaÃ§Ã£o: ', num2str(elapsed_time)])
+disp(['Coordenadas do mÃ­nimo: ', '(', num2str(minimum(1)), ',' , num2str(minimum(2)), ',', num2str(F_min), ')'])
 
 
 
