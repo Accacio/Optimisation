@@ -1,7 +1,7 @@
 ﻿# Optimisation
 Repositório dos Trabalhos de Otimização
 
-Documentação em Optimisation_doc
+Documentação em [Optimisation_doc](https://github.com/Accacio/Optimisation_doc)
 
 ## Primeiro trabalho
 ### Fibonacci
