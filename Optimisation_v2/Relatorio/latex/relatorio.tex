@@ -1,0 +1,48 @@
+\documentclass[twoside]{article}
+\usepackage{color}
+\input{preamble.tex}
+\usepackage[printwatermark]{xwatermark}%\newwatermark[allpages,color=black,angle=45,scale=4,xpos=0,ypos=0]{\todo{RASCUNHO}}
+\debugtrue
+\renewcommand{\labelitemi}{\scalebox{0.8}[0.8]{$\bullet$}}
+\newcommand{\tab}{\hspace{0.5cm}}
+
+\begin{document}
+\large
+\input{titlepage.tex}
+
+\tableofcontents
+
+\newpage
+
+\mysection{Introdução}
+
+\input{introducao}
+
+\mysection{Mínimos Quadrados}\label{sec:min_quad}
+
+\input{min_quad}
+
+\mysection{Algoritmo Genético}\label{sec:genetico}
+
+\input{genetico}
+
+\mysection{Simplex}\label{sec:simplex}
+
+\input{simplex}
+
+\mysection{Interface Gráfica}\label{sec:gui}
+
+\input{gui}
+
+\mysection{Resultados e Discussão}\label{sec:resultados}
+\input{resultados}
+
+\mysection{Conclusão}
+
+\input{conclusao}
+	
+
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+\end{document}

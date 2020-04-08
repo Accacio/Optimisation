@@ -1,0 +1,48 @@
+\begin{figure}[h]
+	\begin{center}	
+		\includegraphics[width=8cm]{Plots/p_impulse_10.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:p_impulse_10}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}	
+		\includegraphics[width=8cm]{Plots/p_impulse_3.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:p_impulse_3}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}	
+		\includegraphics[width=8cm]{Plots/p_impulse_5.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:p_impulse_5}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}	
+		\includegraphics[width=8cm]{Plots/p_iter_10.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:p_iter_10}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}	
+		\includegraphics[width=8cm]{Plots/p_iter_3.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:p_iter_3}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}	
+		\includegraphics[width=8cm]{Plots/p_iter_5.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:p_iter_5}
+	\end{center}
+\end{figure}
+

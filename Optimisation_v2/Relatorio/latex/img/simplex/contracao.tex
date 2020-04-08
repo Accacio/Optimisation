@@ -1,0 +1,32 @@
+
+
+\begin{tikzpicture}
+\draw[blue]  (2,0) -- (0,0) -- (0.5,1) -- cycle ;
+\draw[dashed]  (2,0) -- (0.5,1) -- (2.5,1) -- cycle;
+\draw[red]  (2,0) -- (0.5,1) -- (1.875,.75) -- cycle;
+\draw[dashed] (0,0)--(2.5,1);
+
+
+\node [below] at (0,0) {\tiny $x_h$};
+\node [below] at (2,0) {\tiny $x_l$};
+\node [above] at (0.5,1) {\tiny $x_s$};
+\node [above] at (2.5,1) {\tiny $x_r$};
+\node [right] at (1.1,0.6) {\tiny $c$};
+\node [above] at (1.875,.72) {\tiny $x_c$};
+
+\begin{scope}[xshift=3cm]
+\draw[blue]  (2,0) -- (0,0) -- (0.5,1) -- cycle ;
+\draw[dashed]  (2,0) -- (0.5,1) -- (2.5,1) -- cycle;
+\draw[red]  (2,0) -- (0.5,1) --(0.625,.25)-- cycle;
+\draw[dashed] (0,0)--(2.5,1);
+
+
+\node [below] at (0,0) {\tiny $x_h$};
+\node [below] at (2,0) {\tiny $x_l$};
+\node [above] at (0.5,1) {\tiny $x_s$};
+\node [above] at (2.5,1) {\tiny $x_r$};
+\node [right] at (1.1,0.6) {\tiny $c$};
+\node [below] at (0.625,.28) {\tiny $x_c$};
+\end{scope}
+
+\end{tikzpicture}

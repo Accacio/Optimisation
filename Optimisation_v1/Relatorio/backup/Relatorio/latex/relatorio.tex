@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\input{preamble.tex}
+
+\renewcommand{\labelitemi}{\scalebox{0.8}[0.8]{$\bullet$}}
+\newcommand{\tab}{\hspace{0.5cm}}
+
+\definecolor{lightyellow}{rgb}{1,0.9568,0.8039}
+\definecolor{mygreen}{rgb}{0, 0.35, 0}
+\definecolor{myblue}{rgb}{0,0,1}
+
+\begin{document}
+\large
+\input{titlepage.tex}
+
+\tableofcontents
+
+\newpage
+
+\section{Introdução}
+
+\input{introducao}
+
+\section{Método de Fibonacci}
+
+\input{fibonacci}
+
+\section{Método da Divisão Áurea}
+
+\input{aurea}
+
+\section{Método da Interpolação Polinomial}
+
+\input{interpolacao}
+
+\section{Interface Gráfica}
+
+\input{gui}
+
+\section{Conclusão}
+
+\input{conclusao}
+	
+%\textcolor{mygreen}{text} - Dá cor verde ao texto
+%\textcolor{myblue}{text}  - Dá cor azul  ao texto
+
+
+\end{document}

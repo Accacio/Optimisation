@@ -1,0 +1,24 @@
+O \textit{Método dos Mínimos Quadrados} é uma ferramenta matemática que procura encontrar a melhor configuração, a melhor distribuição de um conjunto de dados tentando minimizar a soma dos quadrados das diferenças entre o valor estimado e os dados observados (também conhecidos como erro ou resíduos) e consiste em um estimador que minimiza a soma dos quadrados dos resíduos da regressão, de forma a maximizar o grau de ajuste do modelo aos dados observados.
+
+Como já é conhecido, as medições podem apresentar erro, o que pode interferir na identificação. Por isso tomamos como premissa que o erro de medição é aleatório de variância e média constantes, e o mais importante, independente do que queremos medir, ou seja, seja uma variável aleatória não correlatada. Desse modo, o valor de minimização encontrado seja o mais próximo do ótimo possível. Caso alguma dessas considerações não seja verdadeira encontraremos valores um pouco distantes do esperado.
+
+Havendo dito que a ideia é minimizar o quadrado dos erros. Como neste trabalho queremos fazer o "fit" de uma função que conhecemos com os valores encontrados experimentalmente podemos seguir utilizando a equação a seguir:
+\begin{equation}
+min(\sum_{i=1}^k (\mathbf{f}(t_k,\omega_n,\zeta)-\mathbf{y}_k))
+\end{equation}
+
+Onde $k$ é a amostra, $\mathbf{f}(t_k,\omega_n,\zeta)$ é a expressão da função de resposta no tempo para o sistema proposto utilizando o instante de tempo $t_k$ da k-ésima amostra, $\mathbf{y}_k$ é o valor medido na amostra $k$ e $\omega_n$ e $\zeta$ são os parâmetros do sistema que queremos encontrar.
+
+Dessa forma dividimos o problema em dois. 
+\begin{enumerate}
+\item Calcular a expressão $\sum_{i=1}^k (\mathbf{f}(t_k,\omega_n,\zeta)-\mathbf{y}_k)$
+\item Minimizar a expressão através de algum método de minimização
+\end{enumerate}
+
+Para primeira parte foi utilizada o toolbox de expressões simbólicas do matlab.
+E depois de calculada a expressão, foi passada como argumento para funções de minimização de 2 variáveis, já que a expressão fica toda em função de $\omega_n$ e $\zeta$.
+
+Foram feitos testes com os métodos de minimização feitos no trabalho anterior \cite{trabalho2} e também para mais dois que serão apresentados nas próximas seções.
+
+
+\newpage
