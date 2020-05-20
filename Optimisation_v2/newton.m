@@ -7,7 +7,7 @@ tic;             %Comeca a contar o tempo
 xk = x0;
 Iter_num = 0;
 alpha = sym('alpha');
-exp = sym(exp);
+exp = str2sym(exp);
 x = symvar(exp);
 
 grad = gradient(exp,x);
