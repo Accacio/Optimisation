@@ -1,6 +1,6 @@
 %NEWTON
 
-function [minimum,F_min,elapsed_time,Iter_num] =  newton_mod(exp,x0,tol,n)
+function [minimum,F_min,elapsed_time,Iter_num] =  newton(exp,x0,tol,n)
 
 tic;             %Comeca a contar o tempo
 
